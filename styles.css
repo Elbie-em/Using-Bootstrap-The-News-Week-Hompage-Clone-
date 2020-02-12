@@ -119,6 +119,11 @@ button:hover {
   height: 90px;
 }
 
+.sign-up-link {
+  width: 260px;
+  height: 163px;
+}
+
 /* Media Queries */
 
 @media (max-width: 990px) {
