@@ -93,7 +93,7 @@ button:hover {
   color: #ccc;
 }
 
-/*Media Queries*/
+/* Media Queries */
 
 @media (max-width: 990px) {
   .nav-logo {
