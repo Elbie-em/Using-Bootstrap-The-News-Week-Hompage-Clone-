@@ -102,6 +102,8 @@ button:hover {
 .c-bg {
   background-color: #f4f5f7;
 }
+
+
 /* Media Queries */
 
 @media (max-width: 990px) {
