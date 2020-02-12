@@ -56,7 +56,7 @@ button:hover {
 .nav-bottom a {
   color: #000;
   font-weight: 900;
-  font-size: 17px;
+  font-size: 16px;
   font-family: Helvetica, sans-serif;
   text-decoration: none;
 }
@@ -68,6 +68,10 @@ button:hover {
 
 .nav-logo {
   width: 450px;
+}
+
+.nav-logo-sm {
+  width: 120px;
 }
 
 .nav-item-margin {
@@ -87,4 +91,17 @@ button:hover {
   position: relative;
   bottom: 1.6px;
   color: #ccc;
+}
+
+/*Media Queries*/
+
+@media (max-width: 990px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-item-margin {
+    position: relative;
+    top: 0;
+  }
 }
