@@ -114,6 +114,10 @@ button:hover {
   font-size: 14px;
 }
 
+.latest-new-sec {
+  width: 100%;
+}
+
 .latest-news-thumbnail {
   width: 135px;
   height: 90px;
@@ -122,6 +126,20 @@ button:hover {
 .sign-up-link {
   width: 260px;
   height: 163px;
+}
+
+.join {
+  position: relative;
+  top: 5px;
+}
+
+.scroll {
+  height: 3070px;
+  overflow-y: scroll;
+}
+
+.more-s {
+  font-size: 14px;
 }
 
 /* Media Queries */
@@ -134,5 +152,20 @@ button:hover {
   .nav-item-margin {
     position: relative;
     top: 0;
+  }
+
+  .latest-new-sec {
+    width: 35%;
+  }
+
+  .scroll-right {
+    height: initial;
+    overflow-y: hidden;
+  }
+}
+
+@media (max-width: 770px) {
+  .latest-new-sec {
+    width: 100%;
   }
 }
