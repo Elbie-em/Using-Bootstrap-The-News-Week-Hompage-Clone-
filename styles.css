@@ -134,12 +134,25 @@ button:hover {
 }
 
 .scroll {
-  height: 3070px;
+  height: 3100px;
   overflow-y: scroll;
 }
 
 .more-s {
   font-size: 14px;
+}
+
+.inmag-h {
+  height: 250px;
+}
+
+.inmag-bg {
+  background-color: #f51e01;
+  margin-top: 3px;
+}
+
+.t-red {
+  color: #f51e01;
 }
 
 /* Media Queries */
@@ -167,5 +180,14 @@ button:hover {
 @media (max-width: 770px) {
   .latest-new-sec {
     width: 100%;
+  }
+
+  .scroll {
+    height: initial;
+    overflow-y: hidden;
+  }
+
+  .inmag-h {
+    height: auto;
   }
 }
