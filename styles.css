@@ -3,6 +3,10 @@ button:hover {
   cursor: pointer;
 }
 
+main {
+  overflow: hidden;
+}
+
 .nav-wrap {
   background-color: #f51e01;
 }
@@ -162,6 +166,10 @@ button:hover {
 .nw-icon {
   width: 34px;
   height: auto;
+}
+
+.division {
+  width: 100vw;
 }
 
 /* Media Queries */
