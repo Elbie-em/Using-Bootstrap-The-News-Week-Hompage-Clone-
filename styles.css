@@ -11,6 +11,10 @@ button:hover {
   background-color: #f51e01;
 }
 
+.center-t {
+  text-align: center;
+}
+
 .subscribe {
   background-color: #fff;
   color: #f51e01;
@@ -153,6 +157,11 @@ button:hover {
 
 .t-red {
   color: #f51e01;
+}
+
+.nw-icon {
+  width: 34px;
+  height: auto;
 }
 
 /* Media Queries */
