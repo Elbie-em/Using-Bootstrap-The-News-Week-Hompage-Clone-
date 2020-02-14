@@ -26,7 +26,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Elbie-em/Using-Bootstrap-The-News-Week-Hompage-Clone-/a1fd069352abf89579ef2b8f4c1cc0ceda6790b3/index.html)
 
 
 ## Getting Started
