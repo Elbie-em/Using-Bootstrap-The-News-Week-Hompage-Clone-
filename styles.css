@@ -260,6 +260,12 @@ main {
   color: #7f7f7f;
 }
 
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* Media Queries */
 
 @media (max-width: 990px) {
@@ -363,4 +369,23 @@ main {
     display: none;
   }
 
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-icons ul li {
+    top: 0;
+    right: 40px;
+  }
+
+  .copyright {
+    position: relative;
+    top: -15px;
+  }
 }
