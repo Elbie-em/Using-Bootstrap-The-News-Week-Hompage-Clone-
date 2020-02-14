@@ -172,6 +172,26 @@ main {
   width: 100vw;
 }
 
+.subscription-sec {
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f5f6;
+}
+
+.sub-sec-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-sec-right p {
+  color: #62696b;
+}
+
+.sub-btn {
+  width: 35%;
+  font-size: 18px;
+}
+
 /* Media Queries */
 
 @media (max-width: 990px) {
