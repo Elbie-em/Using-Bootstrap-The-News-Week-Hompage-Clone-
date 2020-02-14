@@ -195,6 +195,18 @@ main {
 }
 
 @media (max-width: 770px) {
+  .top-story {
+    order: 1;
+  }
+
+  .feature-story {
+    order: 2;
+  }
+
+  .opinion-story {
+    order: 3;
+  }
+
   .latest-new-sec {
     width: 100%;
   }
