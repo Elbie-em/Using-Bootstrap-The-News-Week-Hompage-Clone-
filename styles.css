@@ -284,11 +284,13 @@ main {
   cursor: none;
 }
 
+.social-icons,
 .editions ul li:hover,
 .editions-b ul li:hover {
   cursor: pointer;
   color: #000;
 }
+
 
 /* Media Queries */
 
