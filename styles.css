@@ -176,6 +176,7 @@ main {
   display: flex;
   flex-direction: row;
   background-color: #f4f5f6;
+  height: 350px;
 }
 
 .sub-sec-right {
@@ -183,12 +184,22 @@ main {
   flex-direction: column;
 }
 
+.news-sec-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.news-sec-img {
+  width: 40%;
+}
+
 .sub-sec-right p {
   color: #62696b;
 }
 
 .sub-btn {
-  width: 35%;
+  font-weight: 500;
   font-size: 18px;
 }
 
