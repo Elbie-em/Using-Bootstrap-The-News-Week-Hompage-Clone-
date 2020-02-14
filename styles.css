@@ -203,6 +203,46 @@ main {
   font-size: 18px;
 }
 
+.news-week-footer-logo {
+  width: 280px;
+}
+
+.social-icons ul li {
+  position: relative;
+  top: 26px;
+  display: inline;
+  margin-right: 10px;
+  color: #62696b;
+}
+
+.editions {
+  position: relative;
+  right: 38px;
+  bottom: 15px;
+}
+
+.editions-b {
+  position: relative;
+  right: 38px;
+  bottom: 30px;
+}
+
+.editions ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #62696b;
+  font-size: 14px;
+}
+
+.copyright {
+  position: relative;
+  top: 17px;
+}
+
+.line {
+  color: #7f7f7f;
+}
+
 /* Media Queries */
 
 @media (max-width: 990px) {
@@ -249,5 +289,14 @@ main {
 
   .inmag-h {
     height: auto;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line {
+    display: none;
   }
 }
