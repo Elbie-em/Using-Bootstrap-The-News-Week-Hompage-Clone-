@@ -266,6 +266,24 @@ main {
   justify-content: space-between;
 }
 
+.cursor-p {
+  cursor: pointer;
+}
+
+.hv-hd:hover {
+  text-decoration: underline;
+  text-decoration-color: #f51e01;
+}
+
+.hv-hd-a:hover {
+  color: #f51e01;
+}
+
+.na:hover {
+  text-decoration: none;
+  cursor: none;
+}
+
 /* Media Queries */
 
 @media (max-width: 990px) {
