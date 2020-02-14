@@ -5,6 +5,7 @@ button:hover {
 
 main {
   overflow: hidden;
+  margin-top: 180px;
 }
 
 .nav-wrap {
@@ -111,6 +112,20 @@ main {
   background-color: #f4f5f7;
 }
 
+.culture-n-travel {
+  display: flex;
+  flex-direction: row;
+}
+
+.sticky-d {
+  position: sticky;
+  top: O;
+}
+
+.ct-article {
+  width: 50%;
+}
+
 .opinion-thumbnail {
   width: 60px;
   height: 60px;
@@ -172,11 +187,13 @@ main {
   width: 100vw;
 }
 
-.subscription-sec {
+.subscription-sec,
+.subscription-sec-b {
   display: flex;
   flex-direction: row;
   background-color: #f4f5f6;
   height: 350px;
+  overflow: hidden;
 }
 
 .sub-sec-right {
@@ -187,7 +204,7 @@ main {
 .news-sec-right {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
 }
 
 .news-sec-img {
@@ -246,6 +263,10 @@ main {
 /* Media Queries */
 
 @media (max-width: 990px) {
+  main {
+    margin-top: 60px;
+  }
+
   .nav-logo {
     display: none;
   }
@@ -262,6 +283,26 @@ main {
   .scroll-right {
     height: initial;
     overflow-y: hidden;
+  }
+
+  .sub-sec-right {
+    width: 100%;
+  }
+
+  .subscription-sec-b {
+    height: 200px;
+  }
+
+  .news-sec-right {
+    width: 75%;
+  }
+
+  .news-sec-img {
+    width: 25%;
+  }
+
+  .sub-sec-mag {
+    width: 40%;
   }
 }
 
@@ -282,6 +323,15 @@ main {
     width: 100%;
   }
 
+  .culture-n-travel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ct-article {
+    width: 100%;
+  }
+
   .scroll {
     height: initial;
     overflow-y: hidden;
@@ -289,6 +339,19 @@ main {
 
   .inmag-h {
     height: auto;
+  }
+
+  .subscription-sec {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f6;
+    height: 520px;
+    text-align: center;
+  }
+
+  .sub-sec-mag {
+    width: 40%;
+    text-align: center;
   }
 
   .footer-top {
@@ -299,4 +362,5 @@ main {
   .line {
     display: none;
   }
+
 }
