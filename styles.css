@@ -385,11 +385,6 @@ main {
     text-align: center;
   }
 
-  .footer-top {
-    display: flex;
-    flex-direction: column;
-  }
-
   .line {
     display: none;
   }
