@@ -246,7 +246,7 @@ main {
 
 .copyright {
   position: relative;
-  top: 35px;
+  top: 17px;
 }
 
 .line {
@@ -282,11 +282,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.footer-top-left {
-  display: flex;
-  flex-direction: column;
 }
 
 /* Media Queries */
