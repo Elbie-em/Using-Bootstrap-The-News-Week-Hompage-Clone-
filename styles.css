@@ -246,7 +246,7 @@ main {
 
 .copyright {
   position: relative;
-  top: 17px;
+  top: 15px;
 }
 
 .line {
@@ -402,5 +402,10 @@ main {
   .copyright {
     position: relative;
     top: -15px;
+  }
+
+  .footer-top-left {
+    display: flex;
+    flex-direction: column;
   }
 }
