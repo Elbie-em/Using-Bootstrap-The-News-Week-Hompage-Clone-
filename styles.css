@@ -343,6 +343,15 @@ main {
   }
 
   .feature-story {
+    margin-top: 30px;
+    order: 2;
+  }
+
+  .c-t {
+    order: 1;
+  }
+
+  .m-s {
     order: 2;
   }
 
@@ -361,6 +370,11 @@ main {
 
   .ct-article {
     width: 100%;
+  }
+
+  .latest-news-thumbnail {
+    width: 270px;
+    height: 180px;
   }
 
   .scroll {
@@ -383,6 +397,11 @@ main {
   .sub-sec-mag {
     width: 40%;
     text-align: center;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
   }
 
   .line {
